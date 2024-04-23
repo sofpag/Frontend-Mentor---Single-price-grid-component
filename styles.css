@@ -1,0 +1,80 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  line-height: 1.7;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+p {
+  font-weight: 400;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 35px hsl(210, 4%, 78%);
+}
+
+.box {
+  padding: 35px;
+}
+
+.box-1 {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.box-1 h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+.box-1 h2 {
+  padding: 15px 0;
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.box-1 p {
+  color: hsl(218, 22%, 67%);
+}
+
+.box-2 {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.price-big {
+  font-size: 30px;
+}
+
+.price-small,
+ul {
+  color: hsl(0, 0%, 100%, 0.5);
+  font-weight: 400;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px hsl(179, 74%, 35%);
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(0, 0%, 100%);
+  border: 0px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.box-3 {
+  background-color: hsl(179, 75%, 44%);
+}
