@@ -1,4 +1,6 @@
 body {
+  max-width: 700px;
+  margin: 0 auto;
   background-color: hsl(204, 43%, 93%);
   color: hsl(0, 0%, 100%);
   font-family: "Karla", sans-serif;
@@ -17,11 +19,8 @@ p {
 }
 
 .container {
-  display: grid;
-  justify-content: center;
   margin: 30px;
   border-radius: 10px;
-  box-shadow: 10px 10px 35px hsl(210, 4%, 78%);
 }
 
 .box {
@@ -77,4 +76,17 @@ button {
 
 .box-3 {
   background-color: hsl(179, 75%, 44%);
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .box-1 {
+    grid-column: 1 / span 3;
+    padding: 1rem 2rem;
+    justify-content: center;
+  }
 }
